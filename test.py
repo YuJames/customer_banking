@@ -5,7 +5,10 @@ def test_savings():
     print(results)
 
 def test_cd():
-    pass
+    from cd_account import create_cd_account
+
+    results = create_cd_account(100, 30, 4)
+    print(results)
 
 # test_savings()
 # test_cd()
